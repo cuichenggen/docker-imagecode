@@ -1,4 +1,4 @@
-from python:slim
+FROM python:2-slim
 
 COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
